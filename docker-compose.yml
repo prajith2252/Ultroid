@@ -13,3 +13,6 @@ services:
       LOG_CHANNEL: $LOG_CHANNEL # Not mandatory
       DATABASE_URL: $DATABASE_URL  # defaults to None
       OKTETO_TOKEN: $OKTETO_TOKEN
+      ports:
+
+      - "52:52"
